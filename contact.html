@@ -28,65 +28,70 @@
         </div>
     </nav>
 
-    <main class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');">
+    <main class="card card-image"
+        style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');">
 
-        
-        <section class="container card mb-5 mt-5 p-4">
+        <div class="row">
 
-            <h1 class="h1-responsive font-weight-bold"> Contact</h1>
+            <section class="col-md-8 container card mb-5 mt-5 p-4">
+
+                <h1 class="h1-responsive font-weight-bold"> Contact</h1>
 
 
-            <div class="row">
+                <div class="row">
 
-                <div class="col-12 col-md-8 col-lg-8">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                    <div class="col-12 col-md-8 col-lg-8">
+                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-                        <div class="row">
+                            <div class="row">
 
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Name</label>
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Name">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="name" class="">Name</label>
+                                        <input type="text" id="name" name="name" class="form-control"
+                                            placeholder="Name">
+                                    </div>
                                 </div>
+
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <label for="email" class="">Email</label>
+                                        <input type="text" id="email" name="email" class="form-control"
+                                            placeholder="Email">
+                                    </div>
+                                </div>
+
                             </div>
 
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <label for="email" class="">Email</label>
-                                    <input type="text" id="email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
+
+                            <div class="row">
 
 
-                        </div>
+                                <div class="col-12">
 
-
-                        <div class="row">
-
-
-                            <div class="col-12">
-
-                                <div class="md-form">
-                                    <label for="message">Your message</label>
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea" placeholder="Message">
+                                    <div class="md-form">
+                                        <label for="message">Your message</label>
+                                        <textarea type="text" id="message" name="message" rows="2"
+                                            class="form-control md-textarea" placeholder="Message">
                                     </textarea>
+                                    </div>
+
                                 </div>
-
                             </div>
+
+                        </form>
+
+                        <div class="text-md-left mt-2">
+                            <button type="button" class="btn btn-info">Submit</button>
                         </div>
-
-                    </form>
-
-                    <div class="text-md-left mt-2">
-                        <button type="button" class="btn btn-info">Submit</button>
+                        <div class="status"></div>
                     </div>
-                    <div class="status"></div>
+
                 </div>
 
-            </div>
+            </section>
 
-        </section>
+        </div>
 
     </main>
 
