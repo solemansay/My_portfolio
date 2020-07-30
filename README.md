@@ -1,1 +1,2 @@
-# student_profile
+# Soleman's Portfolio
+This project was created to contain my official portfolio website as a webdesigner. My motivation while creating this website is to add to it every step of the way on my journey ergo the background image on the website! 
