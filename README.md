@@ -1,5 +1,7 @@
 # Soleman's Portfolio
 
+https://solemansay.github.io/My_Portfolio/
+
 # description
 This project was created to contain my official portfolio website as a web designer. My motivation while creating this website is to add to it every step of the way on my journey of learning to code, ergo the background image on the website! This website as it develops and grows along with me will include all of my major accomplishments, projects, and milestones as a coder.
 
