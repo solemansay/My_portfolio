@@ -1,105 +1,154 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
     <title>contact me</title>
-</head>
+  </head>
 
-<!-- Background image from bootstrap -->
+  <!-- Background image from bootstrap -->
 
-<body style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');">
-
+  <body
+    style="
+      background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg');
+    "
+  >
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <h2 class="navbar-brand p-2 mb-0 bg-info text-white">Soleman Sayeed</h2>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="index.html">About</a>
-                <a class="nav-item nav-link" target="_blank"
-                    href="https://www.linkedin.com/in/soleman-sayeed-998488177/">My linkedin</a>
-                    <a class="nav-item nav-link" target="_blank"
-                    href="https://github.com/solemansay">My Github</a>
-            </div>
+      <h2 class="navbar-brand p-2 mb-0 bg-info text-white">Soleman Sayeed</h2>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="index.html">About</a>
+          <a
+            class="nav-item nav-link"
+            target="_blank"
+            href="https://www.linkedin.com/in/soleman-sayeed-998488177/"
+            >My linkedin</a
+          >
+          <a
+            class="nav-item nav-link"
+            target="_blank"
+            href="https://github.com/solemansay"
+            >My Github</a
+          >
         </div>
+      </div>
     </nav>
 
     <main class="row">
-        <section class="col-10.5 col-md-7 col-lg-5 container card m-4 p-4">
-            <h1 class="h1-responsive font-weight-bold"> Contact</h1>
-            <div class="row">
-                <div class="col-12 col-md-9">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <div class="row">
-
-                            <div class="col-12 col-md-10">
-                                <div class="md-form mb-0">
-                                    <label for="name" class="">Name</label>
-                                    <input type="text" id="name" name="name" class="form-control" placeholder="Name">
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-10">
-                                <div class="md-form mb-0">
-                                    <label for="email" class="">Email</label>
-                                    <input type="text" id="email" name="email" class="form-control" placeholder="Email">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-12 col-md-10">
-                                <div class="md-form">
-                                    <label for="message">Message</label>
-                                    <textarea type="text" id="message" name="message" rows="2"
-                                        class="form-control md-textarea" placeholder="Message">
-                                        </textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-
-                    <div class="text-md-left mt-2">
-                        <button type="button" class="btn btn-info">Submit</button>
-                    </div>
-                    <div class="status"></div>
+      <section class="col-10.5 col-md-7 col-lg-5 container card p-5 mt-4">
+        <h1 class="h1-responsive font-weight-bold">Contact</h1>
+        <div class="row">
+          <div class="col-12 col-md-9">
+            <form
+              id="contact-form"
+              name="contact-form"
+              action="mail.php"
+              method="POST"
+            >
+              <div class="row">
+                <div class="col-12 col-md-10">
+                  <div class="md-form mb-0">
+                    <label for="name" class="">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      placeholder="Name"
+                    />
+                  </div>
                 </div>
+
+                <div class="col-12 col-md-10">
+                  <div class="md-form mb-0">
+                    <label for="email" class="">Email</label>
+                    <input
+                      type="text"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-12 col-md-10">
+                  <div class="md-form">
+                    <label for="message">Message</label>
+                    <textarea
+                      type="text"
+                      id="message"
+                      name="message"
+                      rows="2"
+                      class="form-control md-textarea"
+                      placeholder="Message"
+                    >
+                    </textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="text-md-left mt-2">
+              <button type="button" class="btn btn-info">Submit</button>
             </div>
-            <div class="text-center">
-                <br>
-                <p><strong>My Contact Info:</strong></p>
-                <p>Phone:+49 015-251-610-990</p>
-                <P>Email: solemansay@gmail.com</P>
-                <a href="assets/resume.pdf"> <p>My resume</p></a>
-            </div>
-        </section>
+            <div class="status"></div>
+          </div>
+        </div>
+        <div class="text-center">
+          <br />
+          <p><strong>My Contact Info:</strong></p>
+          <p>Phone:+49 015-251-610-990</p>
+          <p>Email: solemansay@gmail.com</p>
+          <a href="assets/resume.pdf"> <p>My resume</p></a>
+        </div>
+      </section>
     </main>
     ​
     <footer class="text-white text-center w-100 py-3 bg-secondary">
-        ​
-        copyright &#169;
-        ​
+      ​ copyright &#169; ​
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
